@@ -1,0 +1,5 @@
+-- SELECT * FROM actor;
+-- SELECT * FROM address;
+-- SELECT title FROM film;
+-- SELECT title, description FROM film;
+-- SELECT first_name, last_name FROM actor;
