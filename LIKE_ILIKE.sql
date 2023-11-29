@@ -1,0 +1,15 @@
+-- SELECT * FROM customer WHERE first_name = 'Mary';
+-- SELECT * FROM customer WHERE first_name LIKE 'M%';
+-- SELECT * FROM customer WHERE first_name LIKE '%y';
+-- SELECT * FROM customer WHERE first_name LIKE 'A%y';
+-- SELECT * FROM customer WHERE first_name LIKE 'A%' AND last_name LIKE 'A%';
+-- SELECT * FROM customer WHERE first_name LIKE 'D%n';
+-- SELECT * FROM customer WHERE NOT first_name LIKE 'A%';
+-- SELECT * FROM customer WHERE first_name LIKE 'J_an';
+-- SELECT * FROM customer WHERE first_name LIKE 'J_';
+-- SELECT * FROM customer WHERE first_name LIKE 'J%';
+-- SELECT * FROM actor WHERE first_name LIKE 'T%';
+-- SELECT * FROM actor WHERE first_name LIKE 'T_m';
+-- SELECT * FROM actor WHERE first_name ~~ 'T_m';
+-- SELECT * FROM actor WHERE first_name ~~* 'b%';
+-- SELECT * FROM actor WHERE first_name !~~* 'b%';
